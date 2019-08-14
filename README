@@ -1,0 +1,20 @@
+
+
+Training Images:
+Pas eerst de WORKDIR in "start_training.sh" aan naar het pad waar start_training.sh enzo staat.
+Het trainen op geannoteerde fotos kan worden gedaan door de bash script "start_training.sh" te runnen. Deze run je met de command: "bash start_training.sh" Het zal dan op de foto's gaan trainen in de directory "data_vedai_pict" met de volgende structuur:
+
+data_vedai_pict
+|
+-obj
+  |
+  - alle fotos in JPG format
+  - alle annotaties in .txt format
+-obj.data
+-obj.names
+-train.txt
+
+
+
+In de folder "Results" zullen om de 1000 iteraties tussentijdse resultaten worden opgeslagen en ook het eind resultaat.
+
